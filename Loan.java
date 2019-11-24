@@ -1,33 +1,41 @@
-
+import javax.swing.*;
+import java.util.*;
 /**
  * 여기에 Loan 클래스 설명을 작성하십시오.
  * 
- * @author (작성자 이름) 
+ * @author (박채린) 
  * @version (버전번호나 날짜)
  */
 public class Loan
 {
-    // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 바꾸십시오
-    private int x;
-
-    /**
-     * Loan 클래스의 객체 생성자
-     */
+    private int Loan_Date;
+    private int Return_Date;
+    
     public Loan()
     {
-        // 인스턴스 변수의 초기화
-        x = 0;
+        b = new Book();
+        this.add(b);
+        
+        if (b.AttachBook()= false) //대출
+        {
+            b.AttachBook();
+            Calendar oCalendar = Calendar.getInstance();
+            l_Month = oCalendar.get(Calendar.MONTH);
+            l_Day = oCalendar.get(Calendar.DAY_OF_MONTH);
+            Loan_Date = l_Month.l_Day;
+            Return_Date = l_Month.l_Day+14;
+        }
     }
-
-    /**
-     * 예제 메소드 - 이 주석을 사용자에 맞게 바꾸십시오
-     * 
-     * @param  y   메소드의 예제 매개변수
-     * @return     x 더하기 y 
-     */
-    public int sampleMethod(int y)
+    public void Return()
     {
-        // 여기에 코드를 작성하십시오.
-        return x + y;
+        if (b.AttachBook() = true)
+        {
+            b.DettachBook();
+            Calendar oCalendar = Calendar.getInstance();
+            r_Month = oCalendar.get(Calendar.MONTH);
+            r_Day = oCalendar.get(Calendar.DAY_OF_MONTH);
+            ReturnBook_Date = r_Month.r_Day;
+            Defarred_Date = ReturnBook_Date-Return_Date;
+        }
     }
 }
