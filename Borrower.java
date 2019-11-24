@@ -12,6 +12,6 @@ public class Borrower
     public Loan(CheckBook,CheckUser){
         return book
     }
-    public Return(CheckBook,CheckUser){        
+    public void Return(CheckBook,CheckUser){        
     }
 }
