@@ -12,19 +12,22 @@ public class Book
     private String author;
     private String title;
     
-    public Book(){
+    public Book(int catalogNumber, String author, String title){
+        TreeSet<Book> ts = new TreeSet<Book>();
+    }
+    
+    public AttachBook(){
         
     }
     
-    public attachBook(){
+    public DettachBook(){
         
     }
     
-    public dettachBook(){
-        
-    }
-    
-    public DisplayBook(){
-        
+    public void DisplayBook(){
+        Iterator<Book> ts = ts.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
     }
 }
