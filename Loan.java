@@ -35,7 +35,6 @@ public class Loan
             r_Month = oCalendar.get(Calendar.MONTH);
             r_Day = oCalendar.get(Calendar.DAY_OF_MONTH);
             ReturnBook_Date = r_Month.r_Day;
-            Defarred_Date = ReturnBook_Date-Return_Date;
         }
     }
 }
