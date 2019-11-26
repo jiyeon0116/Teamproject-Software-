@@ -8,6 +8,7 @@
 public class Library
 {
     private String name;
+    private TreeSet<Book> registeredBook;
     private String title;
     private String author;
     private int catalogNumber;
@@ -20,8 +21,16 @@ public class Library
         this.add(b);
     }
     public void registerOneBook(String title,String author, int catalogNumber){
-        a = new Book();
-        this.add(a);
+        if(CheckBook(catalogNumber)){
+            Book book = new Book(catalogNumber,title,author);
+            boolean result = registeredBook.add(book);
+            if(result == true){
+                System.out.println("등록되었습니다.");
+            }
+            else{
+                System.out.println("실폐했습니다.");
+            }
+        }
     }
     public void displayBooksForLoan(String book){
         this.book = book;
