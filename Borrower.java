@@ -12,11 +12,14 @@ public class Borrower
     public Borrower(String name){
         HashSet<Borrower> b = new HashSet<Borrower>();
     }
+
     public void AttachBook(){
         new Loan(); //새로운 대출 생성
     }
+
     public void DetachBook(){
     }
+
     public String CheckOneBorrower(String name){
         return name;
     }
