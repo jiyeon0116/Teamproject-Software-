@@ -1,4 +1,4 @@
-
+import java.util.*;
 /**
  * Library에대한 클래스
  *
@@ -9,16 +9,22 @@ public class Library
 {
     private String name;
     private TreeSet<Book> registeredBook;
-    private String title;
-    private String author;
-    private int catalogNumber;
-    private String book;
-    public Library(){
+    private HashSet<Borrower> registeredBorrower;
+    private LinkedList<Loan> loan;
+     public Library(){
         this.name = name;
     }
     public void registerOneBorrower(String name){
-        b = new Borrower();
-        this.add(b);
+        if(CheckBorrower(name)){
+            Borrower borrower = new Borrower(name);
+            boolean result = registeredBorrower.add(borrowewr);
+            if(result == true){
+                System.out.println("등록되었습니다.");
+            }
+            else{
+                System.out.println("이미 등록되어 있습니다.");
+            }
+        }
     }
     public void registerOneBook(String title,String author, int catalogNumber){
         if(CheckBook(catalogNumber)){
@@ -33,16 +39,25 @@ public class Library
         }
     }
     public void displayBooksForLoan(String book){
-        this.book = book;
     }
     public void displayBooksOnLoan(String book){
-        this.book = book;
     }
     public void loanOneBook(String name, int catalogNumber){
-        this.name = name;
-        this.catalogNumber = catalogNumber;
+        if(FindOneBorrower(name)){
+            if(FindOneBook(catalogNumber)){
+                Loan l = new Loan();
+                System.out.println("대츨처리가 완료되었습니다.");
+            }
+            else{
+                System.out.println("대츨처리가 안됩니다.");
+            }
+        }
+        else{
+                System.out.println("대츨처리가 안됩니다.");
+        }
     }
     public void returnOneBook(int catalogNumber){
-        this.catalogNumber = catalogNumber;
+        if(CheckBorrower(name)){
+        }
     } 
 }
