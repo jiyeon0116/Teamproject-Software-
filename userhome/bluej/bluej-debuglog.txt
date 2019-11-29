@@ -160,3 +160,57 @@ javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
 	at bluej.collect.DataSubmitter.postData(DataSubmitter.java:183)
 	at bluej.collect.DataSubmitter.processQueue(DataSubmitter.java:135)
 	at bluej.collect.DataSubmitter$1.run(DataSubmitter.java:107)
+Exception in thread "Thread-2" java.lang.NullPointerException
+====
+
+====
+BlueJ run started: Thu Nov 28 14:37:09 JST 2019
+BlueJ version 4.2.1
+Java version 11.0.2
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.2+9 (Oracle Corporation)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\ayaka\Downloads\BlueJ-windows-421\bluej\jdk
+----
+Detected language "japanese" based on iso639-2 code "jpn"
+Internal error: Unable to load frame labels file: C:\Users\ayaka\Downloads\BlueJ-windows-421\bluej\lib\japanese\frame-labels
+Opening project: C:\Users\ayaka\Downloads\?????????\??(2019.11.19)
+1574919475883: Listening for JDWP connection on address: 127.0.0.1:50917
+Connected to debug VM via dt_socket transport...
+Communication with debug VM fully established.
+1574925291894: Listening for JDWP connection on address: javadebug
+====
+
+====
+====
+
+====
+BlueJ run started: Fri Nov 29 12:24:46 JST 2019
+BlueJ version 4.2.1
+Java version 11.0.2
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.2+9 (Oracle Corporation)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\ayaka\Downloads\BlueJ-windows-421\bluej\jdk
+----
+Detected language "japanese" based on iso639-2 code "jpn"
+BlueJ run started: Fri Nov 29 12:24:46 JST 2019
+BlueJ version 4.2.1
+Java version 11.0.2
+JavaFX version 11.0.2+1
+Internal error: Unable to load frame labels file: C:\Users\ayaka\Downloads\BlueJ-windows-421\bluej\lib\japanese\frame-labels
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.2+9 (Oracle Corporation)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\ayaka\Downloads\BlueJ-windows-421\bluej\jdk
+----
+Detected language "japanese" based on iso639-2 code "jpn"
+Internal error: Unable to load frame labels file: C:\Users\ayaka\Downloads\BlueJ-windows-421\bluej\lib\japanese\frame-labels
+Opening project: C:\Users\ayaka\Downloads\?????????\??(2019.11.19)
+Opening project: C:\Users\ayaka\Downloads\?????????\??(2019.11.19)
+1574997998171: Listening for JDWP connection on address: javadebug
+1574998008075: Listening for JDWP connection on address: 127.0.0.1:55019
+Connected to debug VM via dt_socket transport...
+1574998023132: Listening for JDWP connection on address: 127.0.0.1:55022
+Communication with debug VM fully established.
+Connected to debug VM via dt_socket transport...
+Communication with debug VM fully established.
