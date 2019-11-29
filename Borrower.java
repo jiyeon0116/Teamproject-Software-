@@ -8,16 +8,16 @@ import java.util.HashSet;
 public class Borrower
 {
     private String name;
-    
+    public HashSet<Borrower> borrower;
     public Borrower(String name){
-        Hashset <Borrower> b = new Hashset<Borrower>();
+        HashSet<Borrower> b = new HashSet<Borrower>();
     }
     public void AttachBook(){
         new Loan();
     }
     public void DetachBook(){
     }
-    public CheckOneBorrower(String name){
+    public String CheckOneBorrower(String name){
         return name;
     }
 }
