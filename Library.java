@@ -43,8 +43,8 @@ public class Library
     public void displayBooksOnLoan(String book){
     }
     public void loanOneBook(String name, int catalogNumber){
-        if(FindOneBorrower(name)){
-            if(FindOneBook(catalogNumber)){
+        if(CheckOneBorrower(name)){
+            if(CheckOneBook(catalogNumber)){
                 Loan l = new Loan();
                 System.out.println("대츨처리가 완료되었습니다.");
             }
@@ -60,4 +60,6 @@ public class Library
         if(CheckBorrower(name)){
         }
     } 
+    public void toString(){
+    }
 }
