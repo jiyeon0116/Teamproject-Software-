@@ -8,33 +8,22 @@ import java.util.*;
  */
 public class Loan
 {
+    Calendar oCalendar = Calendar.getInstance();
     private int Loan_Date;
     private int Return_Date;
-    
-    public Loan()
+    private int Year = oCalendar.get(Calendar.YEAR);
+    private int Month = oCalendar.get(Calendar.MONTH +1);
+    private int Day = oCalendar.get(Calendar.DAY_OF_MONTH);
+    public void Loan_Date()
     {
-        b = new Book();
-        this.add(b);
-        
-        if (b.AttachBook()= false) //대출
-        {
-            b.AttachBook();
-            Calendar oCalendar = Calendar.getInstance();
-            l_Month = oCalendar.get(Calendar.MONTH);
-            l_Day = oCalendar.get(Calendar.DAY_OF_MONTH);
-            Loan_Date = l_Month.l_Day;
-            Return_Date = l_Month.l_Day+14;
-        }
+        System.out.println("년: " + Year);
+        System.out.println("월: " + Month);
+        System.out.println("일: " + Day);
     }
-    public void Return()
+    public void Return_Date()
     {
-        if (b.AttachBook() = true)
-        {
-            b.DettachBook();
-            Calendar oCalendar = Calendar.getInstance();
-            r_Month = oCalendar.get(Calendar.MONTH);
-            r_Day = oCalendar.get(Calendar.DAY_OF_MONTH);
-            ReturnBook_Date = r_Month.r_Day;
-        }
+        System.out.println("년: " + Year);
+        System.out.println("월: " + Month);
+        System.out.println("일: " + (Day+14));
     }
 }
