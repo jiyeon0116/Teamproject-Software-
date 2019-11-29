@@ -1,9 +1,9 @@
 import java.util.HashSet;
 /**
- * 여기에 Borrower 클래스 설명을 작성하십시오.
+ *  Borrower 객체에 관한 클래스 
  * 
  * @author (2018315022 이지연,2017315056 이토아야카,2018315010 박채린, 2018315059 이와사키 메구미) 
- * @version (버전번호나 날짜)
+ * @version (2019.11.29)
  */
 public class Borrower
 {
@@ -12,12 +12,18 @@ public class Borrower
     public Borrower(String name){
         HashSet<Borrower> b = new HashSet<Borrower>();
     }
+
     public void AttachBook(){
-        new Loan(); //새로운 대출 생성
+        new Loan();
     }
+
     public void DetachBook(){
     }
+
     public String CheckOneBorrower(String name){
         return name;
+    }
+    
+    public String toString(){   
     }
 }

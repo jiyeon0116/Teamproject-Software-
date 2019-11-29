@@ -214,3 +214,7 @@ Connected to debug VM via dt_socket transport...
 Communication with debug VM fully established.
 Connected to debug VM via dt_socket transport...
 Communication with debug VM fully established.
+Teamwork error message: Your local copy is out of date. Update from repository
+before committing your local changes.
+Teamwork error message: You have local changes that need to be committed before you can
+update.
