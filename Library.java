@@ -2,7 +2,7 @@ import java.util.*;
 /**
  * Library에 대한 클래스
  *
- * @author (2018315059 이와사키 메구미)
+ * @author (2018315022 이지연,2017315056 이토아야카,2018315010 박채린, 2018315059 이와사키 메구미)
  * @version (2019.11.26)
  */
 public class Library
@@ -34,7 +34,7 @@ public class Library
                 System.out.println("등록되었습니다.");
             }
             else{
-                System.out.println("실폐했습니다.");
+                System.out.println("실패했습니다.");
             }
         }
     }
