@@ -25,10 +25,8 @@ public class Book
         
     }
     
-    public void FindOneBook(){
-    }
-    
-    public void DisplayBook(){
+    public void CheckOneBook(){
+        
     }
     
     public String toString(Book book){
