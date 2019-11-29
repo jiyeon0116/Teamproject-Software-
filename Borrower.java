@@ -9,9 +9,15 @@ public class Borrower
 {
     private String name;
     
-    public Borrower(){
+    public Borrower(String name){
         Hashset <Borrower> b = new Hashset<Borrower>();
     }
-    
-    
+    public void AttachBook(){
+        new Loan();
+    }
+    public void DetachBook(){
+    }
+    public CheckOneBorrower(String name){
+        return name;
+    }
 }

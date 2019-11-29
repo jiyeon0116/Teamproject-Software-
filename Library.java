@@ -34,7 +34,7 @@ public class Library
                 System.out.println("등록되었습니다.");
             }
             else{
-                System.out.println("실폐했습니다.");
+                System.out.println("실패했습니다.");
             }
         }
     }
