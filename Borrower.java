@@ -14,7 +14,7 @@ public class Borrower
     }
 
     public void AttachBook(){
-        new Loan(); //새로운 대출 생성
+        new Loan();
     }
 
     public void DetachBook(){
@@ -22,5 +22,8 @@ public class Borrower
 
     public String CheckOneBorrower(String name){
         return name;
+    }
+    
+    public String toString(){   
     }
 }
