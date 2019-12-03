@@ -39,26 +39,19 @@ public class Library
         }
     }
     public void displayBooksForLoan(String book){
+        while(book.loan == null){
+            book.display();
+        }
     }
     public void displayBooksOnLoan(String book){
+        while(book.loan != null){
+        }
     }
     public void loanOneBook(String name, int catalogNumber){
-        if(CheckOneBorrower(name)){
-            if(CheckOneBook(catalogNumber)){
-                Loan loan = new Loan();
-                System.out.println("대츨처리가 완료되었습니다.");
-            }
-            else{
-                System.out.println("대츨처리가 안됩니다.");
-            }
-        }
-        else{
-                System.out.println("대츨처리가 안됩니다.");
-        }
+        
     }
     public void returnOneBook(int catalogNumber){
-        if(CheckBook(catalogNumber)){
-        }
+        
     } 
     public String toString(){
     }
