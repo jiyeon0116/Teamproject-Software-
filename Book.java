@@ -17,11 +17,11 @@ public class Book
        this.title = title;
      }
     
-    public void AttachBook(){
+    public boolean AttachBook(){
         new Loan();
      }
     
-    public void DetachBook(){
+    public boolean DetachBook(){
        
     }
     
