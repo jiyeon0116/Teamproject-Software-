@@ -8,6 +8,7 @@ import java.util.*;
  */
 public class Loan
 {
+    Book b;
     Calendar oCalendar = Calendar.getInstance();
     private int Loan_Date;
     private int Return_Date;
@@ -17,21 +18,14 @@ public class Loan
     
     public void Loan_Date()
     {
-        if(AttachBook()==false)
-        {
-            System.out.println("년: " + Year);
-            System.out.println("월: " + Month);
-            System.out.println("일: " + Day);
-        }
+        System.out.println("년: " + Year);
+        System.out.println("월: " + Month);
+        System.out.println("일: " + Day);
     }
     public void Return_Date()
     {
-        if(AttachBook()==false)
-        {
-            System.out.println("년: " + Year);
-            System.out.println("월: " + Month);
-            System.out.println("일: " + (Day+14));
-        }
-        
+        System.out.println("년: " + Year);
+        System.out.println("월: " + Month);
+        System.out.println("일: " + (Day+14));
     }
 }
