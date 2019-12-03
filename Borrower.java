@@ -12,14 +12,20 @@ public class Borrower
     public Borrower(String name){
         HashSet<Borrower> borrower = new HashSet<Borrower>();
     }
+<<<<<<< HEAD
     public void AttachBorrower()
     {new Loan();}
     public void AttachBook()
     {
         new Loan ();
     }
+=======
 
-    public void DetachBorrower(){
+>>>>>>> 308ebc097bed0b992754e093f9591d31f1f8f35f
+
+    public boolean AttachBorrower(){
+    }
+    public boolean DetachBorrower(){
     }
 
     public String CheckOneBorrower(String name){
@@ -27,5 +33,6 @@ public class Borrower
     }
     
     public String toString(){   
+        return 
     }
 }
