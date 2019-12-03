@@ -18,7 +18,7 @@ public class Book
      }
     
     public void AttachBook(){
-        
+        new Loan();
      }
     
     public void DettachBook(){
@@ -26,11 +26,11 @@ public class Book
     }
     
     public void CheckOneBook(){
-        
+        return catalogNumber;
     }
     
     public String toString(Book book){
-        return "Book[catalogNumber: " + catalogNumber+ ", author: " 
+        return "[catalogNumber: " + catalogNumber+ ", author: " 
                  +author+ ", title: " +title+ "]";
     }
 }

@@ -235,3 +235,64 @@ javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
 	at bluej.collect.DataSubmitter$1.run(DataSubmitter.java:107)
 Teamwork error message: You have local changes that need to be committed before you can
 update.
+====
+
+====
+BlueJ run started: Tue Dec 03 12:18:38 JST 2019
+BlueJ version 4.2.1
+Java version 11.0.2
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.2+9 (Oracle Corporation)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\ayaka\Downloads\BlueJ-windows-421\bluej\jdk
+----
+Detected language "japanese" based on iso639-2 code "jpn"
+Internal error: Unable to load frame labels file: C:\Users\ayaka\Downloads\BlueJ-windows-421\bluej\lib\japanese\frame-labels
+Opening project: C:\Users\ayaka\Downloads\??(2019.11.19)
+1575343199284: Listening for JDWP connection on address: javadebug
+1575343218781: Listening for JDWP connection on address: 127.0.0.1:54449
+1575343230223: Failed to connect to debug VM. Reasons follow:
+dt_shmem transport:
+com.sun.jdi.connect.TransportTimeoutException: Timed out waiting for target VM to connect
+	at jdk.jdi/com.sun.tools.jdi.SharedMemoryTransportService.accept0(Native Method)
+	at jdk.jdi/com.sun.tools.jdi.SharedMemoryTransportService.accept(SharedMemoryTransportService.java:164)
+	at jdk.jdi/com.sun.tools.jdi.GenericListeningConnector.accept(GenericListeningConnector.java:155)
+	at bluej.debugger.jdi.VMReference.localhostSocketLaunch(VMReference.java:340)
+	at bluej.debugger.jdi.VMReference.<init>(VMReference.java:555)
+	at bluej.debugger.jdi.JdiDebugger$MachineLoaderThread.run(JdiDebugger.java:1142)
+dt_socket transport:
+com.sun.jdi.connect.TransportTimeoutException: timeout waiting for connection
+	at jdk.jdi/com.sun.tools.jdi.SocketTransportService.accept(SocketTransportService.java:379)
+	at jdk.jdi/com.sun.tools.jdi.GenericListeningConnector.accept(GenericListeningConnector.java:155)
+	at bluej.debugger.jdi.VMReference.localhostSocketLaunch(VMReference.java:340)
+	at bluej.debugger.jdi.VMReference.<init>(VMReference.java:555)
+	at bluej.debugger.jdi.JdiDebugger$MachineLoaderThread.run(JdiDebugger.java:1142)
+Commencing network test...
+Local host address = 192.168.1.60
+Local host ip = 192.168.1.60
+Addresses for 'localhost':
+ -> 127.0.0.1
+ -> 0:0:0:0:0:0:0:1
+(end of list).
+Creating unbound server socket...
+Successful.
+Creating server socket bound to 127.0.0.1...
+Successful.
+(!!) Couldn't accept connection: Accept timed out
+(!!) Exception class: java.net.SocketTimeoutException
+Creating server socket bound to 0:0:0:0:0:0:0:1...
+Successful.
+Attempting to connect to 0:0:0:0:0:0:0:1:54451 with NO_PROXY...
+Successful.
+Attempting to connect to 0:0:0:0:0:0:0:1:54451...
+Successful.
+Creating server socket bound to 192.168.1.60...
+Successful.
+Attempting to connect to 127.0.0.1:54450 with NO_PROXY...
+Attempting to connect to 192.168.1.60:54454 with NO_PROXY...
+Successful.
+Attempting to connect to 192.168.1.60:54454...
+Successful.
+Network test complete.
+(!!) Couldn't connect to local address: Connection refused: connect
+(!!) Exception class: java.net.ConnectException
