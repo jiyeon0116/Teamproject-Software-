@@ -10,11 +10,11 @@ public class Borrower
     private String name;
     public HashSet<Borrower> borrower;
     public Borrower(String name){
-        HashSet<Borrower> b = new HashSet<Borrower>();
+        HashSet<Borrower> borrower = new HashSet<Borrower>();
     }
 
     public void AttachBook(){
-        new Loan();
+        new loan();
     }
 
     public void DetachBook(){

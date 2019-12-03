@@ -18,7 +18,7 @@ public class Book
      }
     
     public void AttachBook(){
-        new Loan(catalogNumber,author,title);
+        new loan(book);
      }
     
     public void DetachBook(){
