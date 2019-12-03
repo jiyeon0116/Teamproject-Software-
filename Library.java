@@ -3,7 +3,7 @@ import java.util.*;
  * Library에 대한 클래스
  *
  * @author (2018315022 이지연,2017315056 이토아야카,2018315010 박채린, 2018315059 이와사키 메구미)
- * @version (2019.11.29)
+ * @version (2019.12.03)
  */
 public class Library
 {
@@ -39,27 +39,20 @@ public class Library
         }
     }
     public void displayBooksForLoan(String book){
+        while(book.loan == null){
+            book.display();
+        }
     }
     public void displayBooksOnLoan(String book){
+        while(book.loan != null){
+        }
     }
     public void loanOneBook(String name, int catalogNumber){
-        if(CheckOneBorrower(name)){
-            if(CheckOneBook(catalogNumber)){
-                Loan l = new Loan();
-                System.out.println("대츨처리가 완료되었습니다.");
-            }
-            else{
-                System.out.println("대츨처리가 안됩니다.");
-            }
-        }
-        else{
-                System.out.println("대츨처리가 안됩니다.");
-        }
+        
     }
     public void returnOneBook(int catalogNumber){
-        if(CheckBorrower(name)){
-        }
+        
     } 
-    public void toString(){
+    public String toString(){
     }
 }
