@@ -13,11 +13,15 @@ public class Borrower
         HashSet<Borrower> borrower = new HashSet<Borrower>();
     }
 
+
     public void AttachBook(){
         new Loan();
     }
 
-    public void DetachBook(){
+
+    public boolean AttachBorrower(){
+    }
+    public boolean DetachBorrower(){
     }
 
     public String CheckOneBorrower(String name){
@@ -25,5 +29,6 @@ public class Borrower
     }
     
     public String toString(){   
+        return 
     }
 }

@@ -1,3 +1,4 @@
+
 import javax.swing.*;
 import java.util.*;
 /**
@@ -14,15 +15,18 @@ public class Loan
     private int Year = oCalendar.get(Calendar.YEAR);
     private int Month = oCalendar.get(Calendar.MONTH +1);
     private int Day = oCalendar.get(Calendar.DAY_OF_MONTH);
-    
-    public void Loan_Date()
+    public boolean AttachBorrower(){}
+    public boolean DetachBorrower(){}
+    public boolean AttachBook(){}
+    public boolean DetachBook(){}
+    public void CheckDate()
     {
-        Loan_Date = String(Year + "년" + Month + "월" + Day + "일");
+        Loan_Date = (Year + "년" + Month + "월" + Day + "일");
         return Loan_Date;
-    }
-    public void Return_Date()
-    {
-        Return_Date = String(Year + "년" + Month + "월" + (Day+14) + "일");
+        Return_Date = (Year + "년" + Month + "월" + (Day+14) + "일");
         return Return_Date;
+    }
+    public String toString()
+    {   
     }
 }
