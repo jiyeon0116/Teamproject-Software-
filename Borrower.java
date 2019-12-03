@@ -14,7 +14,7 @@ public class Borrower
     }
 
     public void AttachBook(){
-        new loan();
+        new Loan();
     }
 
     public void DetachBook(){

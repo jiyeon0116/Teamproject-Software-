@@ -16,7 +16,7 @@ public class Library
     }
     public void registerOneBorrower(String name){
         if(CheckBorrower(name)){
-            Borrower borrower = new borrower(name);
+            Borrower borrower = new Borrower(name);
             boolean result = registeredBorrower.add(borrower);
             if(result == true){
                 System.out.println("등록되었습니다.");
@@ -28,7 +28,7 @@ public class Library
     }
     public void registerOneBook(String title,String author, int catalogNumber){
         if(CheckBook(catalogNumber)){
-            Book book = new book(catalogNumber,title,author);
+            Book book = new Book(catalogNumber,title,author);
             boolean result = registeredBook.add(book);
             if(result == true){
                 System.out.println("등록되었습니다.");
@@ -45,7 +45,7 @@ public class Library
     public void loanOneBook(String name, int catalogNumber){
         if(CheckOneBorrower(name)){
             if(CheckOneBook(catalogNumber)){
-                Loan loan = new loan();
+                Loan loan = new Loan();
                 System.out.println("대츨처리가 완료되었습니다.");
             }
             else{
@@ -57,9 +57,9 @@ public class Library
         }
     }
     public void returnOneBook(int catalogNumber){
-        if(CheckBorrower(name)){
+        if(CheckBook(catalogNumber)){
         }
     } 
-    public void toString(){
+    public String toString(){
     }
 }

@@ -18,15 +18,15 @@ public class Book
      }
     
     public void AttachBook(){
-        new loan(book);
+        new Loan();
      }
     
     public void DetachBook(){
-        loan() = null;
+       
     }
     
     public void CheckOneBook(int catalogNumber){
-        return catalogNumber;
+        return;
     }
     
     public String toString(Book book){
