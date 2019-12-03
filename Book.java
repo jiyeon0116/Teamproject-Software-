@@ -18,14 +18,14 @@ public class Book
      }
     
     public void AttachBook(){
-        new Loan();
+        new Loan(catalogNumber,author,title);
      }
     
-    public void DettachBook(){
+    public void DetachBook(){
         
     }
     
-    public void CheckOneBook(){
+    public void CheckOneBook(int catalogNumber){
         return catalogNumber;
     }
     
