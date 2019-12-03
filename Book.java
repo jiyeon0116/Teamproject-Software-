@@ -19,7 +19,7 @@ public class Book
     
     public boolean AttachBook(){
         new Loan();
-     }
+    }
     
     public boolean DetachBook(){
        

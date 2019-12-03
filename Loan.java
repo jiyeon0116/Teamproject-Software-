@@ -15,10 +15,10 @@ public class Loan
     private int Year = oCalendar.get(Calendar.YEAR);
     private int Month = oCalendar.get(Calendar.MONTH +1);
     private int Day = oCalendar.get(Calendar.DAY_OF_MONTH);
-    public boolean AttachBorrower(String name){}
-    public boolean DetachBorrower(String name){}
-    public boolean AttachBook(int catalogueNumber){}
-    public boolean DetachBook(int catalogueNumber){}
+    public boolean AttachBorrower(){}
+    public boolean DetachBorrower(){}
+    public boolean AttachBook(){}
+    public boolean DetachBook(){}
     public void CheckDate()
     {
         Loan_Date = (Year + "년" + Month + "월" + Day + "일");
