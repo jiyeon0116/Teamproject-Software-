@@ -22,7 +22,7 @@ public class Book
      }
     
     public void DetachBook(){
-        
+        loan() = null;
     }
     
     public void CheckOneBook(int catalogNumber){
