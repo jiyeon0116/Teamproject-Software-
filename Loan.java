@@ -8,7 +8,6 @@ import java.util.*;
  */
 public class Loan
 {
-    Book b;
     Calendar oCalendar = Calendar.getInstance();
     private int Loan_Date;
     private int Return_Date;
