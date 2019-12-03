@@ -18,21 +18,19 @@ public class Book
      }
     
     public void AttachBook(){
-        
+        new Loan();
      }
     
     public void DettachBook(){
         
     }
     
-    public void FindOneBook(){
-    }
-    
-    public void DisplayBook(){
+    public void CheckOneBook(){
+        return catalogNumber;
     }
     
     public String toString(Book book){
-        return "Book[catalogNumber: " + catalogNumber+ ", author: " 
+        return "[catalogNumber: " + catalogNumber+ ", author: " 
                  +author+ ", title: " +title+ "]";
     }
 }

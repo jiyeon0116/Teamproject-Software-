@@ -17,7 +17,7 @@ public class Library
     public void registerOneBorrower(String name){
         if(CheckBorrower(name)){
             Borrower borrower = new Borrower(name);
-            boolean result = registeredBorrower.add(borrowewr);
+            boolean result = registeredBorrower.add(borrower);
             if(result == true){
                 System.out.println("등록되었습니다.");
             }
