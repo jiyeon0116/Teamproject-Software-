@@ -17,7 +17,7 @@ public class Loan
     
     public void Loan_Date()
     {
-        if(Attach()=true)
+        if(AttachBook()==false)
         {
             System.out.println("년: " + Year);
             System.out.println("월: " + Month);
@@ -26,7 +26,7 @@ public class Loan
     }
     public void Return_Date()
     {
-        if(Attach()=true)
+        if(AttachBook()==false)
         {
             System.out.println("년: " + Year);
             System.out.println("월: " + Month);
