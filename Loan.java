@@ -17,14 +17,12 @@ public class Loan
     
     public void Loan_Date()
     {
-        System.out.println("년: " + Year);
-        System.out.println("월: " + Month);
-        System.out.println("일: " + Day);
+        Loan_Date = String(Year + "년" + Month + "월" + Day + "일");
+        return Loan_Date;
     }
     public void Return_Date()
     {
-        System.out.println("년: " + Year);
-        System.out.println("월: " + Month);
-        System.out.println("일: " + (Day+14));
+        Return_Date = String(Year + "년" + Month + "월" + (Day+14) + "일");
+        return Return_Date;
     }
 }
