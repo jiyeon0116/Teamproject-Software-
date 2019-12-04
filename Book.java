@@ -25,7 +25,7 @@ public class Book
        
     }
     
-    public void CheckOneBook(int catalogNumber){
+    public void CheckBook(int catalogNumber){
         return;
     }
     

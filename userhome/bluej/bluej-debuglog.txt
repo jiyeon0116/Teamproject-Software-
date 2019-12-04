@@ -441,3 +441,7 @@ javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
 	at bluej.collect.DataSubmitter.postData(DataSubmitter.java:183)
 	at bluej.collect.DataSubmitter.processQueue(DataSubmitter.java:135)
 	at bluej.collect.DataSubmitter$1.run(DataSubmitter.java:107)
+Teamwork error message: Your local copy is out of date. Update from repository
+before committing your local changes.
+Teamwork error message: Your local copy is out of date. Update from repository
+before committing your local changes.

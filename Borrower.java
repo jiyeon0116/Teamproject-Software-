@@ -20,6 +20,11 @@ public class Borrower
     }
 
 
+    public void AttachBook(){
+        new Loan();
+    }
+
+
     public boolean AttachBorrower(){
     }
     public boolean DetachBorrower(){
