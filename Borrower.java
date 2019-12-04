@@ -12,16 +12,13 @@ public class Borrower
     public Borrower(String name){
         HashSet<Borrower> borrower = new HashSet<Borrower>();
     }
-<<<<<<< HEAD
     public void AttachBorrower()
     {new Loan();}
     public void AttachBook()
     {
         new Loan ();
     }
-=======
 
->>>>>>> 308ebc097bed0b992754e093f9591d31f1f8f35f
 
     public boolean AttachBorrower(){
     }
